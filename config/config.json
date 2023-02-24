@@ -1,0 +1,36 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "news-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/news/NewsWebPart.js",
+          "manifest": "./src/webparts/news/NewsWebPart.manifest.json"
+        }
+      ]
+    },
+    "detailed-news-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/detailedNews/DetailedNewsWebPart.js",
+          "manifest": "./src/webparts/detailedNews/DetailedNewsWebPart.manifest.json"
+        }
+      ]
+    },
+    "all-news-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/allNews/AllNewsWebPart.js",
+          "manifest": "./src/webparts/allNews/AllNewsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "NewsWebPartStrings": "lib/webparts/news/loc/{locale}.js",
+    "DetailedNewsWebPartStrings": "lib/webparts/detailedNews/loc/{locale}.js",
+    "AllNewsWebPartStrings": "lib/webparts/allNews/loc/{locale}.js"
+  }
+}

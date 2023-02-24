@@ -1,0 +1,69 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.header {
+  margin-bottom: 10px;
+  font-family: 'Andada' !important;
+    .sp_dashboard_compnent {
+        //font-family: 'Sansation';
+        font-size: 14px;
+        background-color: '[theme:themePrimary, default:#005aa8]';
+        //background-color: '[theme:white, default:#fff]';
+      }
+    
+      .heddings_copm {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 5px;
+        position: relative;
+      }
+    
+      .heddings_copm h4 {
+          //font-family: 'Sansation Bold';
+          //font-size: 20px;
+          font-family: 'Montserrat' !important;
+          font-size: 18px;
+          font-weight: 600;
+          //position: relative;
+          //color: #000000;
+          //background-color: #5a5a65;
+          color: #fff;
+          //color: '[theme:white, default:#fff]';
+          //padding: 10px;
+          margin: 0;
+          padding: 5px;
+          //background-color: #0c0b5b;
+          //background-color: '[theme:themeSecondary, default:#0c0b5b]';
+      }
+    
+      // .heddings_copm:after {
+      //     content: "";
+      //     display: block;
+      //     width: 100%;
+      //     height: 2px;
+      //     background-color: #5a5a65;
+      //     position: absolute;
+      //     left: 0;
+      //     bottom: 0;
+      // }
+
+      .seeAllLink {
+        font-family: 'Montserrat' !important;
+        text-decoration: none;
+        //color: #000000;
+        color: #fff;
+        font-size: 12px;
+        margin-right: 15px;
+      }
+    
+      /*.heddings_copm a{
+        color: #007bff;
+        text-decoration: none;
+        background-color: transparent;
+      }
+    
+      .heddings_copm a:hover{
+        color: #0056b3;
+        text-decoration: underline;
+      }*/
+}
